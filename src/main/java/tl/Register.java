@@ -7,6 +7,9 @@ public interface Register<T> extends Comparable<Register<T>> {
 
 	public int getDate();
 	public void setDate(int date);
+	public void commit(int date);
+
+	public void reset();
 
 	public void lock();
 	public void unlock();
