@@ -26,7 +26,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>tl.Main</mainClass>
+							<mainClass>application.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
