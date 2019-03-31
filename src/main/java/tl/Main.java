@@ -2,6 +2,7 @@ package tl;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
+// Pour exécuter ce main, changer le champs "mainClass" dans le pom.xml
 public class Main {
 	private static AtomicInteger clock = new AtomicInteger();
 	private static int finished = 0;
